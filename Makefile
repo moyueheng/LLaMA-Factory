@@ -22,3 +22,6 @@ style:
 
 test:
 	CUDA_VISIBLE_DEVICES= WANDB_DISABLED=true pytest -vv tests/
+
+install:
+	uv pip install -e ".[torch,metrics,deepspeed,swanlab,dev,modelscope]" 
