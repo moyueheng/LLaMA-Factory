@@ -74,6 +74,7 @@ extra_require = {
     "modelscope": ["modelscope"],
     "openmind": ["openmind"],
     "swanlab": ["swanlab"],
+    "ray": ["ray[default,train]"],
     "dev": ["pre-commit", "ruff", "pytest", "build"],
 }
 
