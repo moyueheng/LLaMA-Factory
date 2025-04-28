@@ -25,5 +25,4 @@ test:
 
 install:
 	uv pip install -e ".[torch,metrics,deepspeed,swanlab,dev,modelscope]" 
-	uv pip install -U "ray[default]"
-	uv pip install -U "ray[train]"
+	uv pip install -U "ray[default,train]"
